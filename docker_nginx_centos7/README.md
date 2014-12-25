@@ -5,14 +5,15 @@ CentOS 7 dockerfile for nginx
 To build:
 
 Copy the sources down -
-<i>
+```python
 docker build -rm -t <username>/nginx:centos7 .
-</i>
+```
 To run:
-<i>
+```python
 docker run -d -p 80:80 <username>/nginx:centos7
-</i>
+``````
+
 To test:
-<i>
+```python
 curl http://localhost
-</i>
+``````
