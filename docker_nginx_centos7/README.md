@@ -18,6 +18,6 @@ curl http://localhost
 
 ``````
 Please, see my Unix/Linux blog:
-http://linux-notes.org/ustanovka-nginx-v-kontejnere-na-docker/
+http://linux-notes.org
 
 It's russ version, but soon i'll have multi site on many languages
