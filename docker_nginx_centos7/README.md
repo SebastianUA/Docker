@@ -1,6 +1,5 @@
-<b> dockerfiles-centos-nginx </b>
+# dockerfiles for nginx on centos7
 
-CentOS 7 dockerfile for nginx
 
 To build:
 
