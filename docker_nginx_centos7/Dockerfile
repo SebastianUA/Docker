@@ -4,11 +4,8 @@ MAINTAINER Vitaly Natarov <solo.metal@bigmir.net>
 # Configure my repo to use my custom Nginx with modsec
 RUN mkdir -p /usr/local/src && \
     cd /usr/local/src && \
-    yum -y install wget vim htop tar
-
-# install repo for centos
-# epel repo
-RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm && \
+    yum -y install tar && \
+    rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm && \
     rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm && \
     yum repolist && \
     yum -y install nginx
