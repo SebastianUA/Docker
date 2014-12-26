@@ -11,15 +11,19 @@ To build:
 
 Copy the sources down -
 ```python
-docker build -rm -t <username>/mysql:centos7 .
+$ docker build -rm -t <username>/mysql:centos7 .
 ```
 To run:
 ```python
-docker run -d -p 3306:3306 <username>/mysql:centos7
+$ docker run -d -p 3306:3306 <username>/mysql:centos7
 ``````
 For test:
 ```python
-mysql -uroot -p -h your_server_IP
+$ mysql -uroot -pmysql -h your_server_IP -P your_listen_port_on_mysql
+``````
+Example:
+```python
+$ mysql -uroot -pmysql -h 192.168.103.198 -P 3307
 ``````
 
 ``````
