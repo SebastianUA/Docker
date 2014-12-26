@@ -17,7 +17,10 @@ To run:
 ```python
 docker run -d -p 3306:3306 <username>/mysql:centos7
 ``````
-
+For test:
+```python
+mysql -uroot -p -h your_server_IP
+``````
 
 ``````
 Please, see my Unix/Linux blog:
